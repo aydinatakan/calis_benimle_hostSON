@@ -1,0 +1,23 @@
+# Hostinger .htaccess ayarları
+
+# JSON response için header ayarları
+<IfModule mod_headers.c>
+    Header set Content-Type "application/json; charset=utf-8"
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization"
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>
+
+# CORS preflight için
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_METHOD} OPTIONS
+    RewriteRule ^(.*)$ $1 [R=200,L]
+</IfModule>
+
+# Güvenlik ayarları
+<IfModule mod_php.c>
+    php_flag display_errors Off
+    php_flag log_errors On
+</IfModule>

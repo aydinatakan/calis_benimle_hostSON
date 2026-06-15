@@ -1,3 +1,4 @@
+
 # Çalış Benimle 🚀
 
 Öğrencilerin sınav hazırlık süreçlerini daha verimli, planlı ve interaktif hale getirmek için geliştirilmiş kapsamlı bir çalışma takip uygulamasıdır. LGS, TYT-AYT ve YDS gibi farklı sınav türlerine özel içerik ve takip imkanı sunar.
@@ -25,6 +26,9 @@
 <img width="410" height="842" alt="4" src="https://github.com/user-attachments/assets/6306f301-36b6-44a2-9793-365fffbce2ef" />
 <img width="410" height="847" alt="5" src="https://github.com/user-attachments/assets/35b48fd6-44ca-47cd-85ba-8ba7f88241fd" />
 <img width="413" height="840" alt="6" src="https://github.com/user-attachments/assets/b3a7f2f1-c19f-4a33-8f64-5d4a94cb8e52" />
+<img width="415" height="840" alt="Ekran görüntüsü 2026-06-15 152254" src="https://github.com/user-attachments/assets/04803cac-880c-4c71-b308-1cb64352d526" />
+<img width="413" height="840" alt="Ekran görüntüsü 2026-06-15 152445" src="https://github.com/user-attachments/assets/c181fcde-b50c-4881-b500-ad5b7aea969e" />
 <img width="415" height="841" alt="7" src="https://github.com/user-attachments/assets/562254ab-faab-4c79-85cb-a8e5bcc99b84" />
 <img width="410" height="841" alt="8" src="https://github.com/user-attachments/assets/e58c6c43-ecf7-408e-9e18-cc4c4cd5b4a6" />
 <img width="410" height="841" alt="9" src="https://github.com/user-attachments/assets/8d541155-42f8-4201-b690-b422e791c500" />
+

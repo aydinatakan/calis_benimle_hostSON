@@ -11,10 +11,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 }
 
 // Hostinger MySQL ayarları
-$host = 'localhost';  // Hostinger'da genellikle localhost
-$dbname = 'u499931761_calisbenimle';  // Veritabanı adı
-$username = 'u499931761_atakan';
-$password = 'Atakan987.?';
+$host = 'localhost';
+$dbname = 'calisbenimle';
+$username = 'root';
+$password = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);

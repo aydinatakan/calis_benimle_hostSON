@@ -9,7 +9,7 @@ class ApiService {
   // Site URL: https://proje.cloud/calisbenimle/api
   // NOT: Eğer HTTPS çalışmıyorsa, geçici olarak HTTP kullanabilirsiniz:
   // static const String baseUrl = 'http://proje.cloud/calisbenimle/api';
-  static const String baseUrl = 'http://192.168.1.164/calisbenimle_backend';
+  static const String baseUrl = 'http://10.0.2.2/calisbenimle_backend';
   
   // Token yönetimi
   Future<String?> getToken() async {

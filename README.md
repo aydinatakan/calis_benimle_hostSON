@@ -15,7 +15,7 @@
 ## 🛠 Kullanılan Teknolojiler
 
 * **Frontend:** Flutter, Dart
-* **Backend:** PHP, MySQL (veya kullanılan veritabanı)
+* **Backend:** PHP, MySQL 
 * **Yapay Zeka Entegrasyonu:** Gemini API (Kamera destekli soru çözümü ve sohbet için)
 
 ## 📱 Ekran Görüntüleri

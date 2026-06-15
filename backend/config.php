@@ -1,5 +1,5 @@
 <?php
-// Headers - Hostinger'da temiz çalışır
+// Headers
 header('Content-Type: application/json; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     exit(0);
 }
 
-// Hostinger MySQL ayarları
+// Local
 $host = 'localhost';
 $dbname = 'calisbenimle';
 $username = 'root';
@@ -85,7 +85,7 @@ function generateToken($pdo, $userId) {
     return $token;
 }
 
-// Hostinger'da temiz JSON gönderme fonksiyonu
+// Temiz JSON gönderme fonksiyonu
 function cleanOutputAndSend($data) {
     // JSON encode ve gönder
     echo json_encode($data, JSON_UNESCAPED_UNICODE);

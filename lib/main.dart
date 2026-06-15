@@ -80,7 +80,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   void _handleRegister() async {
-    // Register sonrası login ekranına dönüyor, bu yüzden burada bir şey yapmıyoruz
+    // Register sonrası login ekranına dönüyor, bu yüzden burada bir şey yapmıyoruzz
     // Kullanıcı login yaptığında _handleLogin çağrılacak
   }
 
